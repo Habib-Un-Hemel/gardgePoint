@@ -106,8 +106,8 @@ composer --version
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/badhon495/Karigor
-   cd Karigor
+   git clone [https://github.com/Habib-Un-Hemel/gardgePoint]
+   cd gardgePoint
    ```
 
 2. Install dependencies:
@@ -123,11 +123,7 @@ composer --version
 
 4. Configure database in `.env`:
 
-   **For Local Development (SQLite - Recommended for beginners):**
-   ```env
-   DB_CONNECTION=sqlite
-   DB_DATABASE=./database/database.sqlite
-   ```
+
    
    **For Production or Advanced Setup (PostgreSQL):**
    ```env
