@@ -1,4 +1,4 @@
-# Karigor - Online Car Workshop Appointment System
+# GardgePoint - Online Car Workshop Appointment System
 
 <div align="center">
 
@@ -106,8 +106,8 @@ composer --version
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/badhon495/Karigor
-   cd Karigor
+   git clone [https://github.com/Habib-Un-Hemel/gardgePoint]
+   cd gardgePoint
    ```
 
 2. Install dependencies:
@@ -123,11 +123,7 @@ composer --version
 
 4. Configure database in `.env`:
 
-   **For Local Development (SQLite - Recommended for beginners):**
-   ```env
-   DB_CONNECTION=sqlite
-   DB_DATABASE=./database/database.sqlite
-   ```
+
    
    **For Production or Advanced Setup (PostgreSQL):**
    ```env
@@ -155,7 +151,7 @@ composer --version
 
 ## Live Demo
 
-You can try the live demo of this website here: [https://karigor.onrender.com/](https://karigor.onrender.com/)
+You can try the live demo of this website here: [https://gardgepoint.onrender.com/](https://gardgepoint.onrender.com/)
 
 *Note: As this is deployed on a free hosting service, the server may take up to one minute to boot if it has been idle.*
 
