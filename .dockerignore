@@ -1,0 +1,8 @@
+.env.example
+.gitattributes
+.gitignore
+.git
+README.md
+/node_modules
+# Don't ignore the scripts folder
+#/scripts

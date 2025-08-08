@@ -1,0 +1,154 @@
+[2025-08-08 09:52:21] local.ERROR: Database connection [gardgepoint] not configured. {"exception":"[object] (InvalidArgumentException(code: 0): Database connection [gardgepoint] not configured. at /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:227)
+[stacktrace]
+#0 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(191): Illuminate\\Database\\DatabaseManager->configuration('gardgepoint')
+#1 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(102): Illuminate\\Database\\DatabaseManager->makeConnection('gardgepoint')
+#2 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(225): Illuminate\\Database\\DatabaseManager->connection('gardgepoint')
+#3 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(181): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->getConnection()
+#4 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(749): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(164): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Support/helpers.php(338): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}(1)
+#7 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(164): retry(1, Object(Closure), 0, Object(Closure))
+#8 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(140): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->repositoryExists()
+#9 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(110): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#10 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(665): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#11 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(109): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#12 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(88): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
+#13 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#14 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#17 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#18 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate\\Container\\Container->call(Array)
+#19 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/symfony/console/Command/Command.php(279): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#21 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/symfony/console/Application.php(1094): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/symfony/console/Application.php(342): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/symfony/console/Application.php(193): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1234): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 /Users/md.habibunnabihemel/Desktop/gardgePoint/artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#27 {main}
+"} 
+[2025-08-08 09:52:57] local.ERROR: Database connection [gardgepoint] not configured. {"exception":"[object] (InvalidArgumentException(code: 0): Database connection [gardgepoint] not configured. at /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:227)
+[stacktrace]
+#0 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(191): Illuminate\\Database\\DatabaseManager->configuration('gardgepoint')
+#1 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(102): Illuminate\\Database\\DatabaseManager->makeConnection('gardgepoint')
+#2 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(225): Illuminate\\Database\\DatabaseManager->connection('gardgepoint')
+#3 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(181): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->getConnection()
+#4 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(749): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(164): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Support/helpers.php(338): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}(1)
+#7 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(164): retry(1, Object(Closure), 0, Object(Closure))
+#8 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(140): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->repositoryExists()
+#9 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(110): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#10 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(665): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#11 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(109): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#12 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(88): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
+#13 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#14 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#17 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#18 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate\\Container\\Container->call(Array)
+#19 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/symfony/console/Command/Command.php(279): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#21 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/symfony/console/Application.php(1094): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/symfony/console/Application.php(342): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/symfony/console/Application.php(193): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 /Users/md.habibunnabihemel/Desktop/gardgePoint/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1234): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 /Users/md.habibunnabihemel/Desktop/gardgePoint/artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#27 {main}
+"} 
+[2025-08-08 10:00:47] local.INFO: Contact issue created successfully  
+[2025-08-08 10:01:26] local.INFO: Admin login successful with hardcoded credentials  
+[2025-08-08 10:01:26] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 10:01:26] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 10:01:46] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 10:01:47] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 10:02:18] local.INFO: Appointment request data: {"_token":"48Ckg8klzZ3QB6feeVI2SX3R5jR9CIdWV6y0vhAe","name":"Ishrak","phone":"0301230123","address":"shylet","car_license":"31312","car_engine":"31231","appointment_date":"2025-08-23","mechanic_id":"1","time_slot":"8:00 – 10:00 AM"} 
+[2025-08-08 10:02:18] local.INFO: Appointment validated data: {"name":"Ishrak","address":"shylet","phone":"0301230123","car_license":"31312","car_engine":"31231","appointment_date":"2025-08-23","mechanic_id":"1","time_slot":"8:00 – 10:00 AM"} 
+[2025-08-08 10:02:18] local.INFO: Appointment created successfully with ID: 1  
+[2025-08-08 10:17:48] local.INFO: Appointment request data: {"_token":"48Ckg8klzZ3QB6feeVI2SX3R5jR9CIdWV6y0vhAe","name":"rocky","phone":"213131231","address":"312ca","car_license":"231231","car_engine":"31231","appointment_date":"2025-08-23","mechanic_id":"1","time_slot":"10:00 – 12:00 PM"} 
+[2025-08-08 10:17:48] local.INFO: Appointment validated data: {"name":"rocky","address":"312ca","phone":"213131231","car_license":"231231","car_engine":"31231","appointment_date":"2025-08-23","mechanic_id":"1","time_slot":"10:00 – 12:00 PM"} 
+[2025-08-08 10:18:20] local.INFO: Appointment request data: {"_token":"48Ckg8klzZ3QB6feeVI2SX3R5jR9CIdWV6y0vhAe","name":"rockt","phone":"101312312","address":"213","car_license":"28214141","car_engine":"21231","appointment_date":"2025-08-23","mechanic_id":"1","time_slot":"10:00 – 12:00 PM"} 
+[2025-08-08 10:18:20] local.INFO: Appointment validated data: {"name":"rockt","address":"213","phone":"101312312","car_license":"28214141","car_engine":"21231","appointment_date":"2025-08-23","mechanic_id":"1","time_slot":"10:00 – 12:00 PM"} 
+[2025-08-08 10:18:20] local.INFO: Appointment created successfully with ID: 2  
+[2025-08-08 10:28:26] local.INFO: Admin login successful with hardcoded credentials  
+[2025-08-08 10:28:26] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 10:28:26] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 10:28:37] local.INFO: Admin updating appointment {"appointment_id":"1","data":{"_token":"48Ckg8klzZ3QB6feeVI2SX3R5jR9CIdWV6y0vhAe","_method":"PUT","appointment_date":"2025-08-23","time_slot":null,"mechanic_id":"1"}} 
+[2025-08-08 10:28:37] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 10:28:37] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 10:28:52] local.INFO: Admin updating appointment {"appointment_id":"1","data":{"_token":"48Ckg8klzZ3QB6feeVI2SX3R5jR9CIdWV6y0vhAe","_method":"PUT","appointment_date":"2025-08-22","time_slot":"10:00 – 12:00 PM","mechanic_id":"1"}} 
+[2025-08-08 10:28:52] local.INFO: Updating appointment details {"before":{"date":"2025-08-23","mechanic_id":1,"time_slot":"8:00 – 10:00 AM"},"after":{"date":"2025-08-22","mechanic_id":"1","time_slot":"10:00 – 12:00 PM"}} 
+[2025-08-08 10:28:52] local.INFO: Appointment updated successfully {"appointment_id":"1","new_time_slot":"10:00 – 12:00 PM"} 
+[2025-08-08 10:28:52] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 10:28:53] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:56:30] local.INFO: Admin login successful with hardcoded credentials  
+[2025-08-08 11:56:31] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:56:31] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:56:57] local.INFO: Contact issue created successfully  
+[2025-08-08 11:57:16] local.INFO: Admin login successful with hardcoded credentials  
+[2025-08-08 11:57:16] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:57:16] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:57:30] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:57:30] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:57:36] local.INFO: Admin logout {"email":"admin@gmail.com"} 
+[2025-08-08 11:58:34] local.INFO: Admin login successful with hardcoded credentials  
+[2025-08-08 11:58:34] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:58:35] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:58:43] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:58:43] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:58:44] local.INFO: Admin logout {"email":"admin@gmail.com"} 
+[2025-08-08 11:59:00] local.INFO: Admin login successful with hardcoded credentials  
+[2025-08-08 11:59:00] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:59:00] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:59:04] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:59:04] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:59:06] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:59:06] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:59:26] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:59:26] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:59:51] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 11:59:51] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:00:11] local.INFO: Admin updating appointment {"appointment_id":"2","data":{"_token":"48Ckg8klzZ3QB6feeVI2SX3R5jR9CIdWV6y0vhAe","_method":"PUT","appointment_date":"2025-08-23","time_slot":null,"mechanic_id":"2"}} 
+[2025-08-08 12:00:11] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:00:12] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:00:14] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:00:14] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:00:31] local.INFO: Admin updating appointment {"appointment_id":"2","data":{"_token":"48Ckg8klzZ3QB6feeVI2SX3R5jR9CIdWV6y0vhAe","_method":"PUT","appointment_date":"2025-08-23","time_slot":"8:00 – 10:00 AM","mechanic_id":"2"}} 
+[2025-08-08 12:00:31] local.INFO: Updating appointment details {"before":{"date":"2025-08-23","mechanic_id":1,"time_slot":"10:00 – 12:00 PM"},"after":{"date":"2025-08-23","mechanic_id":"2","time_slot":"8:00 – 10:00 AM"}} 
+[2025-08-08 12:00:31] local.INFO: Appointment updated successfully {"appointment_id":"2","new_time_slot":"8:00 – 10:00 AM"} 
+[2025-08-08 12:00:31] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:00:31] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:01:18] local.INFO: Admin updating appointment {"appointment_id":"2","data":{"_token":"48Ckg8klzZ3QB6feeVI2SX3R5jR9CIdWV6y0vhAe","_method":"PUT","appointment_date":"2025-08-23","time_slot":"3:00 – 5:00 PM","mechanic_id":"2"}} 
+[2025-08-08 12:01:18] local.INFO: Updating appointment details {"before":{"date":"2025-08-23","mechanic_id":2,"time_slot":"8:00 – 10:00 AM"},"after":{"date":"2025-08-23","mechanic_id":"2","time_slot":"3:00 – 5:00 PM"}} 
+[2025-08-08 12:01:18] local.INFO: Appointment updated successfully {"appointment_id":"2","new_time_slot":"3:00 – 5:00 PM"} 
+[2025-08-08 12:01:18] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:01:18] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:02:47] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:02:47] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:03:07] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:03:07] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:04:07] local.INFO: Appointment request data: {"_token":"48Ckg8klzZ3QB6feeVI2SX3R5jR9CIdWV6y0vhAe","name":"fasfafs","phone":"241241","address":"sadada","car_license":"aafa","car_engine":"dasda","appointment_date":"2025-08-16","mechanic_id":"2","time_slot":"8:00 – 10:00 AM"} 
+[2025-08-08 12:04:26] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:04:27] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:05:02] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:05:02] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:05:13] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:05:14] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:05:45] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:05:45] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:05:54] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:05:54] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:05:59] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:05:59] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:06:07] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:06:07] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:06:13] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:06:13] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:06:48] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:06:48] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:07:21] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:07:21] local.INFO: Admin dashboard loaded with 0 admin records  
