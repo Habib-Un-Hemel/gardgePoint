@@ -152,3 +152,29 @@
 [2025-08-08 12:06:48] local.INFO: Admin dashboard loaded with 0 admin records  
 [2025-08-08 12:07:21] local.INFO: Admin dashboard loaded with 0 admin records  
 [2025-08-08 12:07:21] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:48:03] local.INFO: Admin login successful with hardcoded credentials  
+[2025-08-08 12:48:12] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:48:21] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:49:51] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:50:00] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:50:17] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 12:50:25] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 13:10:33] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 13:10:42] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 13:10:52] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 13:11:01] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 13:11:29] local.INFO: Appointment request data: {"_token":"voBZQxGgQGArdxSQ5TIkyj9IHLRjsmx5zKFh0mfr","name":"Hemel","phone":"3014141","address":"faf213","car_license":"213131","car_engine":"32131","appointment_date":"2025-08-08","mechanic_id":"1","time_slot":"8:00 – 10:00 AM"} 
+[2025-08-08 13:11:30] local.INFO: Appointment validated data: {"name":"Hemel","address":"faf213","phone":"3014141","car_license":"213131","car_engine":"32131","appointment_date":"2025-08-08","mechanic_id":"1","time_slot":"8:00 – 10:00 AM"} 
+[2025-08-08 13:11:34] local.INFO: Appointment created successfully with ID: 1  
+[2025-08-08 13:17:30] local.INFO: Admin login successful with hardcoded credentials  
+[2025-08-08 13:17:32] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 13:17:34] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 13:17:46] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 13:17:48] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 13:18:03] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 13:18:05] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 13:18:35] local.INFO: Appointment request data: {"_token":"bB4mGN3OA3Ba1A14tqbokhhU53hpoNPQXgNKK1Zp","name":"Hemel","phone":"015375092651","address":"dhaka","car_license":"231321","car_engine":"3213","appointment_date":"2025-08-08","mechanic_id":"1","time_slot":"8:00 – 10:00 AM"} 
+[2025-08-08 13:18:36] local.INFO: Appointment validated data: {"name":"Hemel","address":"dhaka","phone":"015375092651","car_license":"231321","car_engine":"3213","appointment_date":"2025-08-08","mechanic_id":"1","time_slot":"8:00 – 10:00 AM"} 
+[2025-08-08 13:18:37] local.INFO: Appointment created successfully with ID: 1  
+[2025-08-08 13:18:55] local.INFO: Admin dashboard loaded with 0 admin records  
+[2025-08-08 13:18:59] local.INFO: Admin dashboard loaded with 0 admin records  
