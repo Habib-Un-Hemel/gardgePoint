@@ -151,7 +151,7 @@ composer --version
 
 ## Live Demo
 
-You can try the live demo of this website here: [https://karigor.onrender.com/](https://karigor.onrender.com/)
+You can try the live demo of this website here: [https://gardgepoint.onrender.com/](https://gardgepoint.onrender.com/)
 
 *Note: As this is deployed on a free hosting service, the server may take up to one minute to boot if it has been idle.*
 
