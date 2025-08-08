@@ -1,4 +1,4 @@
-# Karigor - Online Car Workshop Appointment System
+# GardgePoint - Online Car Workshop Appointment System
 
 <div align="center">
 
